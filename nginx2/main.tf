@@ -1,7 +1,7 @@
 
 provider "aws" {
-  # profile = "default"
-  region = "us-west-1"
+  profile = "iam-profile"
+  region  = "us-west-1"
 }
 
 
