@@ -1,6 +1,7 @@
 
 provider "aws" {
   profile = "iam-profile"
+  # profile = "ssoprofile-with-session-name"
   region  = "us-west-1"
 }
 
